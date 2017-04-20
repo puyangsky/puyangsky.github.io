@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Puyangsky</title>
+  <subtitle>厚积薄发</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://puyangsky.github.io/"/>
+  <updated>2017-04-20T15:26:32.000Z</updated>
+  <id>https://puyangsky.github.io/</id>
+  
+  <author>
+    <name>puyangsky</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微软Bing广告部面试经历</title>
+    <link href="https://puyangsky.github.io/2017/04/20/ms-interview-md/"/>
+    <id>https://puyangsky.github.io/2017/04/20/ms-interview-md/</id>
+    <published>2017-04-20T15:25:36.000Z</published>
+    <updated>2017-04-20T15:26:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一面"><a href="#一面" class="headerlink" title="一面"></a>一面</h2><p>1、自我介绍</p>
+<p>2、 在项目经历中说一个能代表你工作量的地方（亮点）</p>
+<p>3、手写代码：建堆</p>
+<p>4、分析时间复杂度（我说NlgN，被告知答案是O(N)，每层迭代次数不同，需要累加起来）</p>
+<h2 id="二面"><a href="#二面" class="headerlink" title="二面"></a>二面</h2><p>1、 概率题：三个硬币，可以抛无数次，请问什么情况下的概率是1/7（求一种情况）</p>
+<p>答案：抛3个硬币，共有2^3=8种情况，除掉一种情况，比如全为正面，那么剩下七种情况，那么这7种情况中每一种的概率都是1/7。</p>
+<p>2、n+1个数，数据范围为1~n，每个数都不相同，只有一个数出现了两次，求这个数，给出尽可能多的解法。</p>
+<p>答案：</p>
+<ul>
+<li>hashmap</li>
+<li>bitmap</li>
+<li>排序</li>
+<li>异或</li>
+</ul>
+<p>3、手写快排，完成第二题的代码。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>回头来看，问的问题都不难，甚至可以说很基础，但是实际面的很差，算法基础不够扎实，要多练，多看算导，时间复杂度的推导也很重要。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一面&quot;&gt;&lt;a href=&quot;#一面&quot; class=&quot;headerlink&quot; title=&quot;一面&quot;&gt;&lt;/a&gt;一面&lt;/h2&gt;&lt;p&gt;1、自我介绍&lt;/p&gt;
+&lt;p&gt;2、 在项目经历中说一个能代表你工作量的地方（亮点）&lt;/p&gt;
+&lt;p&gt;3、手写代码：建堆&lt;/p&gt;
+&lt;p&gt;4、分析时
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://puyangsky.github.io/2017/04/12/hello-world/"/>
+    <id>https://puyangsky.github.io/2017/04/12/hello-world/</id>
+    <published>2017-04-12T14:19:41.000Z</published>
+    <updated>2017-04-12T14:19:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
